@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classwork</title>
+
+    <!-- Tab icon -->
+    <link rel="icon" href="./svgs/SAP_logo.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- Scripts -->
+    <script src="js/bootstrap.min.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="
+        fixed-top
+        header
+        shadow
+        d-flex
+        align-content-center
+        gap-5
+        px-4
+        py-3
+        bg-white
+      "
+    >
+      <a href="#" class="logo mr-3">
+        <img src="svgs/SAP_logo.png" style="height: 70px; width: 70px;" alt="Logo" />
+      </a>
+
+
+    </header>
+
+    <main class="container">
+      <!-- Options -->
+      <section
+        class="
+          d-flex
+          justify-content-between
+          align-items-center
+          mb-5
+          space-header
+        "
+      >
+        <div class="d-flex align-items-center cursor-pointer">
+          <!-- <div class="square me-2">
+            <img src="svgs/profile.svg" />
+          </div> -->
+          <h1 class="text-success">Class Name</h1>
+        </div>
+        <!-- <div class="d-flex align-items-center cursor-pointer ms-auto me-4">
+          <div class="square me-2">
+            <img src="svgs/gg-drive.svg" />
+          </div>
+          <span class="fs-6 text-primary">Google Drive</span>
+        </div>
+        <div class="d-flex align-items-center cursor-pointer">
+          <div class="square me-2">
+            <img src="svgs/calendar.svg" />
+          </div>
+          <span class="fs-6 text-primary">Calender</span>
+        </div> -->
+        <button
+          type="button"
+          class="btn btn-dark"
+          data-bs-toggle="modal"
+          data-bs-target="#modal-teacher"
+        >
+          Doubt Clarification
+        </button>
+        <div
+          class="modal fade"
+          id="modal-teacher"
+          tabindex="-1"
+          style="display: none"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Select your preference</h5>
+
+              </div>
+
+              <form class="">
+                <div class="mx-3 my-3">
+                  <div class="mb-3">
+                    <a href="file:///C:/Users/rajat/Desktop/CASE_TOOL/chatroom.html" class="w-100 py-3 btn btn-primary">
+                      Chat room
+                    </a>
+                  </div>
+                  <div class="mb-3">
+                    <a href="" class="w-100 py-3 btn btn-primary">
+                      Video chat
+                    </a>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary btn-modal"
+                    data-bs-dismiss="modal"
+                  >
+                    Cancel
+                  </button>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Storage -->
+      <section class="border py-4 px-3 bg-white mb-5">
+        <div
+          class="
+            d-flex
+            align-items-center
+            justify-content-between
+            border-bottom
+            pb-3
+            mb-4
+          "
+        >
+            <h2 class="text-success">Class Material</h2>
+          <div class="square cursor-pointer">
+            <img src="svgs/menu.svg" alt="Menu" />
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <div class="square me-3">
+              <img src="svgs/homework.svg" alt="Homework" />
+            </div>
+            <span class="fs-5">JavaScript</span>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Notes -->
+      <section class="border py-4 px-3 bg-white">
+        <div
+          class="
+            d-flex
+            align-items-center
+            justify-content-between
+            border-bottom
+            pb-3
+            mb-4
+          "
+        >
+          <h2 class="text-success">Assignment</h2>
+          <div class="square cursor-pointer">
+            <img src="svgs/menu.svg" alt="Menu" />
+          </div>
+        </div>
+
+        <ul class="d-flex flex-column gap-4">
+          <li class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <div class="square me-3">
+                <img src="svgs/homework.svg" alt="Homework" />
+              </div>
+              <span class="fs-5">Assignment-1</span>
+            </div>
+
+            <time class="text-black-50"> Due 11:59, 11-12-2021 </time>
+          </li>
+          <li class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <div class="square me-3">
+                <img src="svgs/homework.svg" alt="Homework" />
+              </div>
+              <span class="fs-5">Assignment-2</span>
+            </div>
+
+            <time class="text-black-50"> Due 11:59, 11-12-2021</time>
+          </li>
+        </ul>
+      </section>
+  <br>
+  <br>
+      <section class="border py-4 px-3 bg-white">
+        <div
+          class="
+            d-flex
+            align-items-center
+            justify-content-between
+            border-bottom
+            pb-3
+            mb-4
+          "
+        >
+          <h2 class="text-success">Recorded Lectures</h2>
+          <div class="square cursor-pointer">
+            <img src="svgs/menu.svg" alt="Menu" />
+          </div>
+        </div>
+
+        <ul class="d-flex flex-column gap-4">
+          <li class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <div class="square me-3">
+                <img src="svgs/homework.svg" alt="Homework" />
+              </div>
+              <span class="fs-5">Lecture-1</span>
+            </div>
+
+
+          </li>
+          <li class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <div class="square me-3">
+                <img src="svgs/homework.svg" alt="Homework" />
+              </div>
+              <span class="fs-5">Lecture-2</span>
+            </div>
+
+
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
